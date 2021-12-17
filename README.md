@@ -4,6 +4,6 @@ Um aplicativo Flutter que contém diversas animações durante as transições d
 
 ## Introduction
 
-O aplicativo contém uma tela de login que ao clicar no botçao Sign In, faz uma animação no botão, alterando sua largura e trocando o texto para CircularProgressIndicator. Após um curto período de tempo, é alterado a página de Login para Home com o Hero cobrindo toda a tela com efeito de fadeout.
+O aplicativo contém uma tela de login que ao clicar no botão Sign In, inicia uma animação, alterando sua largura e trocando o texto para um CircularProgressIndicator. Após um curto período de tempo, a página de Login fecha e vai para Home, utilizando o Hero para para suaviar a troca de tela com efeito de fadeout.
 
-A tela Home expande gradualmente a imagem do perfil e carrega uma lista mostranso os dados sequencialmente.
+A tela Home expande gradualmente a imagem do perfil e carrega uma lista mostrando os dados em formato de cascata.
